@@ -12,16 +12,4 @@ LABEL org.freenas.interactive="false" 		\
               \"name\": \"/var/jenkins_home\",			\
               \"descr\": \"Jenkins Database\"			\
           }							\
-      ]"							\
-      org.freenas.settings="[ 					\
-          {							\
-              \"env\": \"JAVA_OPTS\",				\
-              \"descr\": \"Java Options\",		        \
-              \"optional\": true				\
-          },							\
-          {							\
-              \"env\": \"JENKINS_OPTS\",			\
-              \"descr\": \"Jenkins Options\",	                \
-              \"optional\": true				\
-          } 							\
       ]"
